@@ -168,7 +168,7 @@ def to_consumer(data, ASIN):
 
 
 def mainproducer():
-    for i in range(10):
+    for i in range(249):
         with open('random-items.txt', 'r') as file:
             ASIN = file.read()
 
